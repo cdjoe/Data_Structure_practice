@@ -19,8 +19,6 @@ struct node {
     treePointer leftChild, rightChild;
 };
 
-
-
 int main() {
 
 
@@ -238,15 +236,10 @@ treePointer delete(treePointer node, int k) {
                 else
                     parent = parent->rightChild;
             }
-            
-
 
         }
 
     }
-
-
-
 
 }
 
